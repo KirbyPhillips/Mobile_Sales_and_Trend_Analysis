@@ -78,11 +78,11 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 | Models | 19 |
 | Countries | 4 (India, Turkey, Bangladesh, Pakistan) |
 | Cities | 25 |
-| Currency | Native dataset unit — denomination unspecified |
+| Currency | Native dataset unit - denomination unspecified |
 
 ---
 
-### Phase 2: Data Model Setup (Power BI)
+### PHASE 2: Data Model Setup (Power BI)
 
 - Loaded 3 tables into Power BI via Power Query, fixing a promoted headers issue on Dim\_Products
 - Disabled auto-detect relationships for complete manual control
@@ -90,15 +90,50 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 - Created DIM\_Calendar in Power Query with 11 columns covering all 366 days of 2024
 - Marked DIM\_Calendar as the official date table
 
-#### Data Model (Star Schema)
+#### Data Model Layout
+The data model in this analysis comprised of 3 key areas: star schema, tables, cardinality
 
-This is a logical star schema design illustrating the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
+### Star Schema
+This is a summary of the data model's star schema layout:
+
+```
+FACT_Sales (366 rows, 13 columns)
+    |
+    |-- DIM_Products (274 rows, 6 columns)      [via Product_Key]
+    |-- DIM_Locations (25 rows, 4 columns)      [via City]
+    |-- DIM_Calendar (366 rows, 11 columns)     [via Transaction_Date]
+```
+
+### Tables
+This is a summary of the table structure:
+
+| Table | Rows | Columns | Description |
+|---|---|---|---|
+| FACT\_Sales | 366 | 13 | Central fact table — transactions, measures, and foreign keys |
+| DIM\_Products | 274 | 6 | Product variants by model, brand, OS, storage, and colour |
+| DIM\_Locations | 25 | 4 | City, country, latitude, and longitude |
+| DIM\_Calendar | 366 | 11 | Date table built in Power Query |
+| \_Measures | 0 | — | Dedicated measures table with 65 DAX measures |
+
+### Relationships
+This is a summary of the relationship cardinality:
+
+| From | To | Column | Cardinality |
+|---|---|---|---|
+| DIM_Products | FACT_Sales | Product_Key | One to Many |
+| DIM_Locations | FACT_Sales | City | One to Many |
+| DIM_Calendar | FACT_Sales | Transaction_Date | One to Many |
+
+This image below illstrates all the above mentioned components of this data model in a logical star schema design. 
+It illustrates the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
 
 <img width="393" height="299" alt="{C95AED0F-D69A-4A69-A9BF-9D7724D8CC7D}" src="https://github.com/user-attachments/assets/d555194c-5135-4205-a1c2-83149616bf2a" />
 
 ![Data Model](assets/db.png) 
 
-### Phase 3: Model Optimisation
+---
+
+### PHASE 3: Model Optimisation
 
 - Created 65 DAX measures organised into 7 display folders in a dedicated `_Measures` table
 - Standardised all column naming conventions to underscore format
@@ -111,7 +146,7 @@ This is a logical star schema design illustrating the relationship between the c
 
 <img width="209" height="150" alt="{82828FA6-3B62-4179-A2D7-79D704EAA229}" src="https://github.com/user-attachments/assets/7dcb22c8-2e9b-48cb-9039-5002c9eceec1" />
 
-### Phase 4: Report Building (Power BI)
+### PHASE 4: Report Building (Power BI)
 
 Built 6 report pages following the North Star to Catalyst to Indicator hierarchy:
 
@@ -124,7 +159,7 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 | 5 | Customer Insights | Customer Indicators |
 | 6 | Channel and Payment | Channel Indicators |
 
-### Phase 5: Design and Theme
+### PHASE 5: Design and Theme
 
 - Designed all 6 report page backgrounds in Figma, exported as PNG images, and imported as canvas backgrounds in Power BI
 - Applied the custom Emerald Tide JSON theme across all 26 visual types
@@ -134,33 +169,7 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 
 ## Data Model
 
-### Star Schema
 
-```
-FACT_Sales (366 rows, 13 columns)
-    |
-    |-- DIM_Products (274 rows, 6 columns)      [via Product_Key]
-    |-- DIM_Locations (25 rows, 4 columns)      [via City]
-    |-- DIM_Calendar (366 rows, 11 columns)     [via Transaction_Date]
-```
-
-### Tables
-
-| Table | Rows | Columns | Description |
-|---|---|---|---|
-| FACT\_Sales | 366 | 13 | Central fact table — transactions, measures, and foreign keys |
-| DIM\_Products | 274 | 6 | Product variants by model, brand, OS, storage, and colour |
-| DIM\_Locations | 25 | 4 | City, country, latitude, and longitude |
-| DIM\_Calendar | 366 | 11 | Date table built in Power Query |
-| \_Measures | 0 | — | Dedicated measures table with 65 DAX measures |
-
-### Relationships
-
-| From | To | Column | Cardinality |
-|---|---|---|---|
-| DIM_Products | FACT_Sales | Product_Key | One to Many |
-| DIM_Locations | FACT_Sales | City | One to Many |
-| DIM_Calendar | FACT_Sales | Transaction_Date | One to Many |
 
 ---
 
@@ -203,19 +212,6 @@ FACT_Sales (366 rows, 13 columns)
 4. Conduct a strategic review of the Pakistan market, focusing on product range realignment and pricing optimisation
 5. Continue investing in the Online channel — it generates the highest average units per transaction at 52.7
 6. Develop targeted marketing for the 54 to 65 age segment — the highest value customer cohort at 831 per device
-
----
-
-## Project Documentation
-
-| Document | Description |
-|---|---|
-| Mobile\_Sales\_SCAN\_Framework.docx | Full SCAN Framework applied to this project |
-| Mobile\_Sales\_Project\_Phases\_SCAN.docx | All 6 project phases with detailed decisions and outcomes |
-| Mobile\_Sales\_Semantic\_Model.md | Complete data model documentation with DAX code and business logic |
-| Mobile\_Sales\_Business\_Report\_v2.docx | 2-page business report with recommendations and business impact |
-| Mobile\_Sales\_QA\_Report.docx | 9 business questions answered with data-driven responses |
-| Mobile\_Sales\_Prompts.docx | 125 prompts used throughout the project organised by phase |
 
 ---
 
