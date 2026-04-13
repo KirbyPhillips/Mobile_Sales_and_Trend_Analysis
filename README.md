@@ -2,9 +2,15 @@
 
 ## Project Overview
 
-A mobile phone retailer operating across India, Turkey, Bangladesh, and Pakistan didn't have a centralised view of its sales performance. Revenue data, product mix information, customer demographics, and channel performance all existed in raw transactional form with no structure to support analysis or decision-making.
+In 2024, a mobile phone retailer operating across 4 countries (India, Turkey, Bangladesh, and Pakistan) lacked a centralised view of its sales performance. Key data such as revenue, product mix, customer demographics, and channel performance, existed in raw transactional formats, making it difficult to extract meaningful insights or support decision-making.
 
-This analysis transforms a partially modelled Excel file into a structured, end-to-end Power BI analytics solution.
+As a result, stakeholders were unable to answer critical business questions, such as:
+
+* Which markets were driving the most revenue?
+* What products performed best across different regions?
+* Which sales channels were most effective?
+
+This project was built to bridge that gap by transforming a partially modelled Excel dataset into a structured, end-to-end Power BI analytics solution. The goal was to enable clear visibility into performance, support data-driven decision-making, and uncover actionable insights across markets, products, and customer segments.
 
 ---
 
