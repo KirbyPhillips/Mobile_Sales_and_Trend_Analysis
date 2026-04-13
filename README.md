@@ -10,6 +10,8 @@ This analysis transforms a partially modelled Excel file into a structured, end-
 
 ## Tools and Technologies
 
+The following tools and technologies were used to complete this analysis:
+
 | Tool | Purpose |
 |---|---|
 | Microsoft Excel | Data preparation and normalisation |
