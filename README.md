@@ -50,16 +50,12 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 
 This analysis was planned and executed using the SCAN Framework, a personal structured methodology developed to bring clarity to every stage of the process.
 
-## The SCAN Framework
-
-This analysis was planned and executed using the SCAN Framework, a personal structured methodology developed to bring clarity to every stage of the process.
-
 | Step | Description |
 |---|---|
-| S — Scope the Situation | - Defined the business problem, the cost of inaction, and the solution. <br> - The retailer had no centralised view of performance across 4 markets, making it impossible to identify which brands, channels, or regions were driving revenue. |
-| C — Confirm the Core Metrics | - Established Total Revenue as the North Star metric, with Average Selling Price, Total Units Sold, and Total Transactions as the 3 Catalysts. <br> - Mapped the Indicators under each Catalyst to explain why each one moves. |
-| A — Build the Architecture | - Normalised the raw dataset and built a star schema with 4 tables, 3 manually built relationships, and 65 DAX measures organised into display folders. <br> - Every technical decision, from the Product Key to the Calendar table, was made to support the metric hierarchy defined in the C step. |
-| N — Narrate the Story | - Wireframed all 6 report pages before opening Figma, then designed all backgrounds in Figma and exported them as PNG canvas images in Power BI. <br> - Applied the Emerald Tide JSON theme across all 26 visual types and used CARE design principles throughout. |
+| S — Scope the Situation | - Defined the business problem, the cost of inaction, and the solution. <br> - **HOW?** The retailer had no centralised view of performance across 4 markets, making it impossible to identify which brands, channels, or regions were driving revenue. |
+| C — Confirm the Core Metrics | - Established Total Revenue as the North Star metric, with Average Selling Price, Total Units Sold, and Total Transactions as the 3 Catalysts. <br> - **HOW?** Mapped the Indicators under each Catalyst to explain why each one moves and to give the report a clear diagnostic layer. |
+| A — Build the Architecture | - Normalised the raw dataset and built a star schema with 4 tables, 3 manually built relationships, and 65 DAX measures organised into display folders. <br> - **HOW?** Every technical decision, from the composite Product Key to the Power Query Calendar table, was made to support the metric hierarchy confirmed in the C step. |
+| N — Narrate the Story | - Wireframed all 6 report pages before opening Figma, then designed all backgrounds in Figma and exported them as PNG canvas images in Power BI. <br> - **HOW?** Applied the Emerald Tide JSON theme across all 26 visual types and used CARE design principles throughout. |
 
 ---
 
