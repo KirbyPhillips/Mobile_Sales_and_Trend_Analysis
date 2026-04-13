@@ -56,7 +56,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 A structured, end-to-end workflow was followed to transform raw unstructured transactional data into a scalable and insight-driven Power BI solution. The project spans data preparation, modelling, optimisation, and dashboard design, with each phase building toward actionable business insights.
 
 ### PHASE 1: Data Preparation (Excel)
-
+Steps:
 - Reviewed the raw unstructured `Mobile_Sales.xlsx` file across 4 sheets: Fact\_Sales, Dim\_Products, Dim\_Locations, and Data Dictionary
 - Rebinned `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
 - Normalised `Fact_Sales` by removing 7 denormalised columns: Brand, Operating\_System, Color, Storage\_Size, Country, Latitude, Longitude
@@ -83,7 +83,7 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 ---
 
 ### PHASE 2: Data Model Setup (Power BI)
-
+Steps:
 - Loaded 3 tables into Power BI via Power Query, fixing a promoted headers issue on Dim\_Products
 - Disabled auto-detect relationships for complete manual control
 - Built a star schema with 3 active relationships: DIM_Products, DIM_Locations, and DIM_Calendar each connected one-to-many to FACT_Sales.
@@ -134,7 +134,7 @@ It illustrates the relationship between the central FACT_Sales table and support
 ---
 
 ### PHASE 3: Model Optimisation
-
+Steps:
 - Created 65 DAX measures organised into 7 display folders in a dedicated `_Measures` table
 - Standardised all column naming conventions to underscore format
 - Hidden all foreign key and join columns from report view
@@ -160,20 +160,14 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 | 6 | Channel and Payment | Channel Indicators |
 
 ### PHASE 5: Design and Theme
-
+Steps:
 - Designed all 6 report page backgrounds in Figma, exported as PNG images, and imported as canvas backgrounds in Power BI
 - Applied the custom Emerald Tide JSON theme across all 26 visual types
 - Applied CARE design principles throughout: Cohesion, Aesthetic, Rhythm, Emphasis
 
 ---
 
-## Data Model
-
-
-
----
-
-## Measure Library
+## Measures Library
 
 65 DAX measures organised across 6 display folders:
 
@@ -186,32 +180,6 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 | Geographic Analysis | 5 | Revenue and Units by Country and City, Avg Selling Price by Country |
 | Channel Analysis | 5 | Revenue, Units, and Transactions by Sales Channel and Payment Type |
 | Conditional Formatting | 15 | CF Revenue by Brand, CF Bars, Marker Color, MoM Revenue, CF MoM Revenue, and supporting measures |
-
----
-
-## Key Findings
-
-| Finding | Detail |
-|---|---|
-| Total Revenue | 14,525,413 across 366 transactions in 2024 |
-| Top Market | India at 6.97M, accounting for 48% of total revenue |
-| Top Brand | Apple at 3.64M, followed by Samsung at 3.48M |
-| Average Selling Price | 784.73 per device across all brands and markets |
-| September Dip | The only month below 1M in revenue at 988K, driven by product mix not demand |
-| Pakistan Pricing | Average selling price of 619, which is 27% below the overall average |
-| Online Channel | Accounts for 62.3% of total revenue across 213 transactions |
-| Age and Brand Correlation | Spending increases with age — 18-29 group averages 787, 54-65 group averages 831 |
-
----
-
-## Recommendations
-
-1. Prioritise India as the primary growth market — a 10% revenue increase would add approximately 697K to the top line
-2. Increase availability of Apple and Samsung products — together they generate 49% of revenue from just 2 of 5 brands
-3. Launch a targeted campaign in August and September to address the annual mid-year revenue dip
-4. Conduct a strategic review of the Pakistan market, focusing on product range realignment and pricing optimisation
-5. Continue investing in the Online channel — it generates the highest average units per transaction at 52.7
-6. Develop targeted marketing for the 54 to 65 age segment — the highest value customer cohort at 831 per device
 
 ---
 
