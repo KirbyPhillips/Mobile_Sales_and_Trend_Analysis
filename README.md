@@ -53,7 +53,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 | Step | Description |
 |---|---|
 | S - Scope the Situation | - Defined the business problem and the cost of inaction. <br><br> - **HOW?** The retailer had no centralised view of performance across 4 markets, making it impossible to identify which brands, channels, or regions were driving revenue. Resulting in an inability to act on pricing trends or demographic shifts in real time. |
-| C - Confirm the Core Metrics | - Established North Star metric (Revenue), and 3 Catalysts (Average Selling Price, Units Sold, and Transactions). <br><br> - **HOW?** Mapped the Indicators under each Catalyst to explain why each one moves and to give the report a clear diagnostic layer. |
+| C - Confirm the Core Metrics | - Established North Star metric (Revenue), and 3 Catalysts (Average Selling Price, Units Sold, and Transactions). <br><br> - **HOW?** Mapped the Indicators under each Catalyst to explain why each one moved and to give the report a clear diagnostic layer. |
 | A - Build the Architecture | - Normalised the raw dataset and built a star schema with 4 tables, 3 manually built relationships, and 65 DAX measures organised into display folders. <br><br> - **HOW?** Every technical decision, from the composite Product Key to the Power Query Calendar table, was made to support the metric hierarchy confirmed in the C step. |
 | N - Narrate the Story | - Wireframed all 6 report pages before opening Figma, then designed all backgrounds in Figma and exported them as PNG canvas images in Power BI. <br><br> - **HOW?** Applied the Emerald Tide JSON theme across all 26 visual types and used CARE design principles throughout. |
 
