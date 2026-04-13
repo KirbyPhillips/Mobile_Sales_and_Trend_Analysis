@@ -88,6 +88,10 @@ This is a logical star schema design illustrating the relationship between the c
 - Built 3 user hierarchies: Date, Geography, and Product
 - Corrected data types: Transaction\_ID changed to Text, date columns changed from DateTime to Date
 
+#### Measures Organisation and Model Optimisation
+
+<img width="209" height="150" alt="{82828FA6-3B62-4179-A2D7-79D704EAA229}" src="https://github.com/user-attachments/assets/7dcb22c8-2e9b-48cb-9039-5002c9eceec1" />
+
 ### Phase 4: Report Building (Power BI)
 
 Built 6 report pages following the North Star to Catalyst to Indicator hierarchy:
