@@ -1,7 +1,7 @@
 # Mobile Sales and Trends Analysis
 
 ### Note: 
-This is a technical description of the entire process followed to complete this analysis. Business related insights and recommendations are in a separate document folder and linked on my website www.primepeakinsights.com
+This is a technical description of the entire process followed to complete this analysis. Business related insights and recommendations are in this separate document folder and linked on my website www.primepeakinsights.com
 
 ---
 
