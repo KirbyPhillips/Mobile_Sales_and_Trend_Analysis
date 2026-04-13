@@ -71,6 +71,13 @@ A structured, end-to-end workflow was followed to transform raw transactional da
 - Created DIM\_Calendar in Power Query with 11 columns covering all 366 days of 2024
 - Marked DIM\_Calendar as the official date table
 
+#### Data Model (Star Schema)
+
+![Data Model](assets/db.png) 
+
+Logical star schema design illustrating the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
+
+
 ### Phase 3: Model Optimisation
 
 - Created 65 DAX measures organised into 6 display folders in a dedicated `_Measures` table
