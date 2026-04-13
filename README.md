@@ -36,7 +36,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 
 ## Project Phases
 
-### Phase 1 — Data Preparation (Excel)
+### Phase 1: Data Preparation (Excel)
 
 - Reviewed the raw `Mobile_Sales.xlsx` file across 4 sheets: Fact\_Sales, Dim\_Products, Dim\_Locations, and Data Dictionary
 - Rebinned `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
@@ -44,7 +44,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 - Replaced GUID-based `Transaction_ID` with sequential integers 1 to 366
 - Created composite `Product_Key` (P001 to P274) in both Dim\_Products and Fact\_Sales to enable a valid one-to-many relationship
 
-### Phase 2 — Data Model Setup (Power BI)
+### Phase 2: Data Model Setup (Power BI)
 
 - Loaded 3 tables into Power BI via Power Query, fixing a promoted headers issue on Dim\_Products
 - Disabled auto-detect relationships for complete manual control
@@ -52,7 +52,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 - Created DIM\_Calendar in Power Query with 11 columns covering all 366 days of 2024
 - Marked DIM\_Calendar as the official date table
 
-### Phase 3 — Model Optimisation
+### Phase 3: Model Optimisation
 
 - Created 65 DAX measures organised into 6 display folders in a dedicated `_Measures` table
 - Standardised all column naming conventions to underscore format
@@ -61,7 +61,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 - Built 3 user hierarchies: Date, Geography, and Product
 - Corrected data types: Transaction\_ID changed to Text, date columns changed from DateTime to Date
 
-### Phase 4 — Report Building (Power BI)
+### Phase 4: Report Building (Power BI)
 
 Built 6 report pages following the North Star to Catalyst to Indicator hierarchy:
 
@@ -74,7 +74,7 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 | 5 | Customer Insights | Customer Indicators |
 | 6 | Channel and Payment | Channel Indicators |
 
-### Phase 5 — Design and Theme
+### Phase 5: Design and Theme
 
 - Designed all 6 report page backgrounds in Figma, exported as PNG images, and imported as canvas backgrounds in Power BI
 - Applied the custom Emerald Tide JSON theme across all 26 visual types
