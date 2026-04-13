@@ -139,14 +139,6 @@ FACT_Sales (366 rows, 13 columns)
 
 | From | To | Column | Cardinality |
 |---|---|---|---|
-| FACT\_Sales | DIM\_Products | Product\_Key | Many to One |
-| FACT\_Sales | DIM\_Locations | City | Many to One |
-| FACT\_Sales | DIM\_Calendar | Transaction\_Date | Many to One |
-
-### Relationships
-
-| From | To | Column | Cardinality |
-|---|---|---|---|
 | DIM_Products | FACT_Sales | Product_Key | One to Many |
 | DIM_Locations | FACT_Sales | City | One to Many |
 | DIM_Calendar | FACT_Sales | Transaction_Date | One to Many |
