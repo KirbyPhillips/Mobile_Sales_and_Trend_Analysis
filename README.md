@@ -24,7 +24,7 @@ The following tools and technologies were used to complete this analysis:
 
 | Tool | Purpose |
 |---|---|
-| Microsoft Excel | Data inspection and preliminary diagnosis |
+| Microsoft Excel | Dataset inspection and preliminary diagnosis |
 | Power BI Desktop | Data modelling, DAX measures, and report building |
 | Power Query | Data transformation and normalisation; Calendar table generation |
 | DAX | 65 measures across 7 display folders |
