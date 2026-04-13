@@ -1,5 +1,7 @@
 # Mobile Sales and Trends Analysis
 
+### Note: Please note that this is a technical description of the entire analysis process followed. Business related insights and recommendations are in a separate document in this file and linked on my website.
+
 ## Project Overview
 
 In 2024, a mobile phone retailer operating across 4 countries (India, Turkey, Bangladesh, and Pakistan) lacked a centralised view of its sales performance. Key data such as revenue, product mix, customer demographics, and channel performance, existed in raw transactional formats, making it difficult to extract meaningful insights or support decision-making.
