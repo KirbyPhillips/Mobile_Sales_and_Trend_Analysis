@@ -91,9 +91,9 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 - Marked DIM\_Calendar as the official date table
 
 #### Data Model Layout
-The data model in this analysis comprised of 3 key areas: star schema, tables, cardinality
+The data model in this analysis comprised of 3 key areas: star schema, tables, and relationships.
 
-### Star Schema
+### 1. Star Schema
 This is a summary of the data model's star schema layout:
 
 ```
@@ -104,7 +104,7 @@ FACT_Sales (366 rows, 13 columns)
     |-- DIM_Calendar (366 rows, 11 columns)     [via Transaction_Date]
 ```
 
-### Tables
+### 2. Tables
 This is a summary of the table structure:
 
 | Table | Rows | Columns | Description |
@@ -115,7 +115,7 @@ This is a summary of the table structure:
 | DIM\_Calendar | 366 | 11 | Date table built in Power Query |
 | \_Measures | 0 | — | Dedicated measures table with 65 DAX measures |
 
-### Relationships
+### 3. Relationships
 This is a summary of the relationship cardinality:
 
 | From | To | Column | Cardinality |
