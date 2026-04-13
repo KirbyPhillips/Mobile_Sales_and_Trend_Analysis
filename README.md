@@ -45,6 +45,18 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 | A - Build the Architecture | Designed the data model and measure library |
 | N - Narrate the Story | Applied CARE design principles to the report |
 
+
+## The SCAN Framework
+
+This analysis was planned and executed using the SCAN Framework, a personal structured methodology developed to bring clarity to every stage of the process.
+
+| Step | Description |
+|---|---|
+| S — Scope the Situation | Defined the business problem, the cost of inaction, and the solution. The retailer had no centralised view of performance across 4 markets, making it impossible to identify which brands, channels, or regions were driving revenue. |
+| C — Confirm the Core Metrics | Established Total Revenue as the North Star metric, identified Average Selling Price, Total Units Sold, and Total Transactions as the 3 Catalysts, and mapped the Indicators that explain why each Catalyst moves. |
+| A — Build the Architecture | Normalised the raw dataset from 20 columns to a clean star schema with 4 tables and 3 manually built relationships. Built 65 DAX measures organised into display folders mirroring the metric hierarchy. |
+| N — Narrate the Story | Wireframed all 6 report pages before opening Figma. Designed page backgrounds in Figma, applied the Emerald Tide JSON theme across all 26 visual types, and applied CARE design principles throughout. |
+
 ---
 
 ## Project Phases
