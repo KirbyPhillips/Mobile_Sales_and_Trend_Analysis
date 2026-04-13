@@ -58,6 +58,7 @@ A structured, end-to-end workflow was followed to transform raw transactional da
 - Normalised `Fact_Sales` by removing 7 denormalised columns: Brand, Operating\_System, Color, Storage\_Size, Country, Latitude, Longitude
 - Replaced GUID-based `Transaction_ID` with sequential integers 1 to 366
 - Created composite `Product_Key` (P001 to P274) in both Dim\_Products and Fact\_Sales to enable a valid one-to-many relationship
+
   
 **Data prep image:**
 
