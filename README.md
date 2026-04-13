@@ -13,13 +13,8 @@ As a result, stakeholders were unable to answer critical business questions, suc
 This project was built to bridge that gap by transforming a partially modelled Excel dataset into a structured, end-to-end Power BI analytics solution. The goal was to enable clear visibility into performance, support data-driven decision-making, and uncover actionable insights across markets, products, and customer segments.
 
 
+
 <img width="601" height="335" alt="{37C71874-F5A4-4873-9803-8197D5A909D1}" src="https://github.com/user-attachments/assets/ba96ac69-e171-435f-a845-181cb2288e2f" />
-
-
-
-
-
-
 
 
 ---
