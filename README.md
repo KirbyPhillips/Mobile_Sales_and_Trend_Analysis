@@ -40,18 +40,6 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 
 | Step | Description |
 |---|---|
-| S - Scope the Situation | Defined the business problem and cost of inaction |
-| C - Confirm the Core Metrics | Established the North Star, 3 Catalysts, and Indicators |
-| A - Build the Architecture | Designed the data model and measure library |
-| N - Narrate the Story | Applied CARE design principles to the report |
-
-
-## The SCAN Framework
-
-This analysis was planned and executed using the SCAN Framework, a personal structured methodology developed to bring clarity to every stage of the process.
-
-| Step | Description |
-|---|---|
 | S - Scope the Situation | - Defined the business problem and the cost of inaction. <br><br> - **HOW?** The retailer had no centralised view of performance across 4 markets, making it impossible to identify which brands, channels, or regions were driving revenue. Resulting in an inability to act on pricing trends or demographic shifts in real time. |
 | C - Confirm the Core Metrics | - Established North Star metric (Revenue), and 3 Catalysts (Average Selling Price, Units Sold, and Transactions). <br><br> - **HOW?** Mapped the Indicators under each Catalyst to explain why each one moved, and to give the report a clear diagnostic layer. |
 | A - Build the Architecture | - Normalised the raw unstructured dataset and built a star schema with 4 tables, 3 manually built relationships, and 65 DAX measures organised into display folders. <br><br> - **HOW?** Every technical decision, from the composite Product Key to the Power Query Calendar table, was made to support the metric hierarchy confirmed in the C step. |
