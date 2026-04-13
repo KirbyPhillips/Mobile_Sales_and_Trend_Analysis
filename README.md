@@ -50,12 +50,16 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 
 This analysis was planned and executed using the SCAN Framework, a personal structured methodology developed to bring clarity to every stage of the process.
 
+## The SCAN Framework
+
+This analysis was planned and executed using the SCAN Framework, a personal structured methodology developed to bring clarity to every stage of the process.
+
 | Step | Description |
 |---|---|
-| S — Scope the Situation | Defined the business problem, the cost of inaction, and the solution. The retailer had no centralised view of performance across 4 markets, making it impossible to identify which brands, channels, or regions were driving revenue. |
-| C — Confirm the Core Metrics | Established Total Revenue as the North Star metric, identified Average Selling Price, Total Units Sold, and Total Transactions as the 3 Catalysts, and mapped the Indicators that explain why each Catalyst moves. |
-| A — Build the Architecture | Normalised the raw dataset from 20 columns to a clean star schema with 4 tables and 3 manually built relationships. Built 65 DAX measures organised into display folders mirroring the metric hierarchy. |
-| N — Narrate the Story | Wireframed all 6 report pages before opening Figma. Designed page backgrounds in Figma, applied the Emerald Tide JSON theme across all 26 visual types, and applied CARE design principles throughout. |
+| S — Scope the Situation | - Defined the business problem, the cost of inaction, and the solution. <br> - The retailer had no centralised view of performance across 4 markets, making it impossible to identify which brands, channels, or regions were driving revenue. |
+| C — Confirm the Core Metrics | - Established Total Revenue as the North Star metric, with Average Selling Price, Total Units Sold, and Total Transactions as the 3 Catalysts. <br> - Mapped the Indicators under each Catalyst to explain why each one moves. |
+| A — Build the Architecture | - Normalised the raw dataset and built a star schema with 4 tables, 3 manually built relationships, and 65 DAX measures organised into display folders. <br> - Every technical decision, from the Product Key to the Calendar table, was made to support the metric hierarchy defined in the C step. |
+| N — Narrate the Story | - Wireframed all 6 report pages before opening Figma, then designed all backgrounds in Figma and exported them as PNG canvas images in Power BI. <br> - Applied the Emerald Tide JSON theme across all 26 visual types and used CARE design principles throughout. |
 
 ---
 
