@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A mobile phone retailer operating across India, Turkey, Bangladesh, and Pakistan had no centralised view of its sales performance. Revenue data, product mix information, customer demographics, and channel performance all existed in raw transactional form with no structure to support analysis or decision-making.
+A mobile phone retailer operating across India, Turkey, Bangladesh, and Pakistan didn't have a centralised view of its sales performance. Revenue data, product mix information, customer demographics, and channel performance all existed in raw transactional form with no structure to support analysis or decision-making.
 
 This analysis transforms a partially modelled Excel file into a structured, end-to-end Power BI analytics solution.
 
