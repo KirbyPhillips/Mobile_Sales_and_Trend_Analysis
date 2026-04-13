@@ -53,7 +53,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 
 ## Project Phases
 
-A structured, end-to-end workflow was followed to transform raw transactional data into a scalable and insight-driven Power BI solution. The project spans data preparation, modelling, optimisation, and dashboard design, with each phase building toward actionable business insights.
+A structured, end-to-end workflow was followed to transform raw unstructured transactional data into a scalable and insight-driven Power BI solution. The project spans data preparation, modelling, optimisation, and dashboard design, with each phase building toward actionable business insights.
 
 ### Phase 1: Data Preparation (Excel)
 
