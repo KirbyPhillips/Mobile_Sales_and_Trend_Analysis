@@ -13,7 +13,6 @@ As a result, stakeholders were unable to answer critical business questions, suc
 This project was built to bridge that gap by transforming a partially modelled Excel dataset into a structured, end-to-end Power BI analytics solution. The goal was to enable clear visibility into performance, support data-driven decision-making, and uncover actionable insights across markets, products, and customer segments.
 
 
-
 <img width="601" height="335" alt="{37C71874-F5A4-4873-9803-8197D5A909D1}" src="https://github.com/user-attachments/assets/ba96ac69-e171-435f-a845-181cb2288e2f" />
 
 
@@ -31,6 +30,7 @@ The following tools and technologies were used to complete this analysis:
 | DAX | 65 measures across 6 display folders |
 | Figma | Wireframing and report background design |
 | JSON | Custom Emerald Tide theme applied across all 26 visual types |
+| Claude.ai | Structure report writing |
 
 ---
 
@@ -48,6 +48,8 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 ---
 
 ## Project Phases
+
+A structured, end-to-end workflow was followed to transform raw transactional data into a scalable and insight-driven Power BI solution. The project spans data preparation, modelling, optimisation, and dashboard design, with each phase building toward actionable business insights.
 
 ### Phase 1: Data Preparation (Excel)
 
