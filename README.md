@@ -73,10 +73,9 @@ A structured, end-to-end workflow was followed to transform raw transactional da
 
 #### Data Model (Star Schema)
 
+This is a logical star schema design illustrating the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
+
 ![Data Model](assets/db.png) 
-
-Logical star schema design illustrating the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
-
 
 ### Phase 3: Model Optimisation
 
