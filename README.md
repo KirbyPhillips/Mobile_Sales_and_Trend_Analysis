@@ -1,14 +1,10 @@
 # Mobile Sales and Trends Analysis
 
-Analysed 2024 mobile phone sales data across 4 countries to uncover revenue trends, customer behaviour, and market performance using Excel and Power BI.
-
----
-
 ## Project Overview
 
-A major mobile phone retailer operating across India, Turkey, Bangladesh, and Pakistan had no centralised view of its sales performance. Revenue data, product mix information, customer demographics, and channel performance all existed in raw transactional form with no structure to support analysis or decision-making.
+A mobile phone retailer operating across India, Turkey, Bangladesh, and Pakistan had no centralised view of its sales performance. Revenue data, product mix information, customer demographics, and channel performance all existed in raw transactional form with no structure to support analysis or decision-making.
 
-This project transforms a single flat Excel file into a structured, end-to-end Power BI analytics solution, delivering a 6-page report that tells the full business story from a single North Star metric down to operational diagnostics.
+This analysis transforms a partially modelled Excel file into a structured, end-to-end Power BI analytics solution.
 
 ---
 
@@ -18,23 +14,23 @@ This project transforms a single flat Excel file into a structured, end-to-end P
 |---|---|
 | Microsoft Excel | Data preparation and normalisation |
 | Power BI Desktop | Data modelling, DAX measures, and report building |
-| Power Query (M) | Data transformation and Calendar table generation |
+| Power Query | Data transformation and Calendar table generation |
 | DAX | 65 measures across 6 display folders |
-| Figma | Report background design and wireframing |
+| Figma | Wireframing and report background design |
 | JSON | Custom Emerald Tide theme applied across all 26 visual types |
 
 ---
 
 ## The SCAN Framework
 
-This project was planned and executed using the SCAN Framework, a structured methodology applied before touching any data or opening Power BI.
+This analysis was planned and executed using the SCAN Framework, a personal structured methodology developed to bring clarity to every stage of the process.
 
 | Step | Description |
 |---|---|
 | S — Scope the Situation | Defined the business problem, cost of inaction, and solution |
 | C — Confirm the Core Metrics | Established the North Star, 3 Catalysts, and Indicators |
 | A — Build the Architecture | Designed the data model and measure library |
-| N — Narrate the Story | Applied CRAP design principles to the report |
+| N — Narrate the Story | Applied CARE design principles to the report |
 
 ---
 
@@ -46,14 +42,14 @@ This project was planned and executed using the SCAN Framework, a structured met
 - Rebinned `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
 - Normalised `Fact_Sales` by removing 7 denormalised columns: Brand, Operating\_System, Color, Storage\_Size, Country, Latitude, Longitude
 - Replaced GUID-based `Transaction_ID` with sequential integers 1 to 366
-- Created composite `Product_Key` (P001 to P274) in both Fact\_Sales and Dim\_Products to enable a valid many-to-one relationship
+- Created composite `Product_Key` (P001 to P274) in both Dim\_Products and Fact\_Sales to enable a valid one-to-many relationship
 
 ### Phase 2 — Data Model Setup (Power BI)
 
 - Loaded 3 tables into Power BI via Power Query, fixing a promoted headers issue on Dim\_Products
-- Disabled auto-detect relationships for full manual control
-- Built a star schema with 3 active relationships: FACT\_Sales to DIM\_Products, DIM\_Locations, and DIM\_Calendar
-- Created DIM\_Calendar entirely in Power Query (M) with 11 columns covering all 366 days of 2024
+- Disabled auto-detect relationships for complete manual control
+- Built a star schema with 3 active relationships: DIM_Products, DIM_Locations, and DIM_Calendar each connected one-to-many to FACT_Sales.
+- Created DIM\_Calendar in Power Query with 11 columns covering all 366 days of 2024
 - Marked DIM\_Calendar as the official date table
 
 ### Phase 3 — Model Optimisation
@@ -80,9 +76,9 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 
 ### Phase 5 — Design and Theme
 
-- Designed all 6 report page backgrounds in Figma, exported as PNG images, and applied as canvas backgrounds in Power BI
+- Designed all 6 report page backgrounds in Figma, exported as PNG images, and imported as canvas backgrounds in Power BI
 - Applied the custom Emerald Tide JSON theme across all 26 visual types
-- Used CRAP design principles throughout: Contrast, Repetition, Alignment, Proximity
+- Applied CARE design principles throughout: Cohesion, Aesthetic, Rhythm, Emphasis
 
 ---
 
@@ -105,7 +101,7 @@ FACT_Sales (366 rows, 13 columns)
 | FACT\_Sales | 366 | 13 | Central fact table — transactions, measures, and foreign keys |
 | DIM\_Products | 274 | 6 | Product variants by model, brand, OS, storage, and colour |
 | DIM\_Locations | 25 | 4 | City, country, latitude, and longitude |
-| DIM\_Calendar | 366 | 11 | Date table built in Power Query (M) |
+| DIM\_Calendar | 366 | 11 | Date table built in Power Query |
 | \_Measures | 0 | — | Dedicated measures table with 65 DAX measures |
 
 ### Relationships
