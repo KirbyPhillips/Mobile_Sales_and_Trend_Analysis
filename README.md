@@ -29,10 +29,10 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 
 | Step | Description |
 |---|---|
-| S — Scope the Situation | Defined the business problem, cost of inaction, and solution |
-| C — Confirm the Core Metrics | Established the North Star, 3 Catalysts, and Indicators |
-| A — Build the Architecture | Designed the data model and measure library |
-| N — Narrate the Story | Applied CARE design principles to the report |
+| S - Scope the Situation | Defined the business problem, cost of inaction, and solution |
+| C - Confirm the Core Metrics | Established the North Star, 3 Catalysts, and Indicators |
+| A - Build the Architecture | Designed the data model and measure library |
+| N - Narrate the Story | Applied CARE design principles to the report |
 
 ---
 
