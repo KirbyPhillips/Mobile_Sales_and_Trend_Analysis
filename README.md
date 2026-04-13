@@ -81,7 +81,7 @@ This is a logical star schema design illustrating the relationship between the c
 
 ### Phase 3: Model Optimisation
 
-- Created 65 DAX measures organised into 6 display folders in a dedicated `_Measures` table
+- Created 65 DAX measures organised into 7 display folders in a dedicated `_Measures` table
 - Standardised all column naming conventions to underscore format
 - Hidden all foreign key and join columns from report view
 - Added descriptions to all 79 model objects including tables, columns, and measures
