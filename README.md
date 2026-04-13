@@ -131,6 +131,18 @@ It illustrates the relationship between the central FACT_Sales table and support
 
 ![Data Model](assets/db.png) 
 
+## Data Model Performance
+
+The data model is structured as a star schema with one central fact table (FACT_Sales) and 3 dimension tables (DIM_Products, DIM_Locations, and DIM_Calendar), built from a partially modelled Excel source file. The model covers 366 transactions across 4 countries, 25 cities, 5 brands, and 19 mobile phone models, with 65 DAX measures organised into 6 display folders.
+
+**This data model allows us to:**
+
+- Track Revenue (14,525,413), Units Sold (18,548), and Transactions (366) at transaction level and aggregate across any combination of brand, model, country, city, age group, gender, sales channel, and payment type..
+- Analyse month-over-month and year-to-date performance for all 5 core metrics using time intelligence measures built on a Power Query Calendar table.
+- Compare average selling price across countries, brands, age groups, and genders — surfacing pricing gaps such as Pakistan at 619 versus the overall average of 784.
+- Drill down from country to city level using the Geography hierarchy, from brand to model to storage to colour using the Product hierarchy, and from year to day using the Date hierarchy.
+- Apply conditional formatting dynamically across visuals to surface the highest and lowest performing months, brands, and metrics without manual configuration.
+  
 ---
 
 ### PHASE 3: Model Optimisation
@@ -146,6 +158,8 @@ Steps:
 
 <img width="209" height="150" alt="{82828FA6-3B62-4179-A2D7-79D704EAA229}" src="https://github.com/user-attachments/assets/7dcb22c8-2e9b-48cb-9039-5002c9eceec1" />
 
+---
+
 ### PHASE 4: Report Building (Power BI)
 
 Built 6 report pages following the North Star to Catalyst to Indicator hierarchy:
@@ -158,6 +172,8 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 | 4 | Geographic Analysis | Geographic Indicators |
 | 5 | Customer Insights | Customer Indicators |
 | 6 | Channel and Payment | Channel Indicators |
+
+---
 
 ### PHASE 5: Design and Theme
 Steps:
