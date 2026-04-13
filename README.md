@@ -24,10 +24,10 @@ The following tools and technologies were used to complete this analysis:
 
 | Tool | Purpose |
 |---|---|
-| Microsoft Excel | Data preparation and normalisation |
+| Microsoft Excel | Data inspection and preliminary diagnosis |
 | Power BI Desktop | Data modelling, DAX measures, and report building |
-| Power Query | Data transformation and Calendar table generation |
-| DAX | 65 measures across 6 display folders |
+| Power Query | Data transformation and normalisation; Calendar table generation |
+| DAX | 65 measures across 7 display folders |
 | Figma | Wireframing and report background design |
 | JSON | Custom Emerald Tide theme applied across all 26 visual types |
 | Claude.ai | Structure report writing |
