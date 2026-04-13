@@ -55,7 +55,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 
 A structured, end-to-end workflow was followed to transform raw unstructured transactional data into a scalable and insight-driven Power BI solution. The project spans data preparation, modelling, optimisation, and dashboard design, with each phase building toward actionable business insights.
 
-### Phase 1: Data Preparation (Excel)
+### PHASE 1: Data Preparation (Excel)
 
 - Reviewed the raw unstructured `Mobile_Sales.xlsx` file across 4 sheets: Fact\_Sales, Dim\_Products, Dim\_Locations, and Data Dictionary
 - Rebinned `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
@@ -66,6 +66,19 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 **Data prep image:**
 
 <img width="926" height="317" alt="{BFC24286-5D4C-4872-96A4-F830934EC253}" src="https://github.com/user-attachments/assets/62efa2ca-a88c-4ba0-8c3c-b01c100d9bc8" />
+
+## Dataset
+
+| Property | Detail |
+|---|---|
+| Source | Mobile\_Sales.xlsx |
+| Period | January 1 to December 31, 2024 |
+| Transactions | 366 |
+| Brands | 5 (Apple, Samsung, Google, OnePlus, Xiaomi) |
+| Models | 19 |
+| Countries | 4 (India, Turkey, Bangladesh, Pakistan) |
+| Cities | 25 |
+| Currency | Native dataset unit — denomination unspecified |
 
 ### Phase 2: Data Model Setup (Power BI)
 
@@ -201,21 +214,6 @@ FACT_Sales (366 rows, 13 columns)
 | Mobile\_Sales\_Business\_Report\_v2.docx | 2-page business report with recommendations and business impact |
 | Mobile\_Sales\_QA\_Report.docx | 9 business questions answered with data-driven responses |
 | Mobile\_Sales\_Prompts.docx | 125 prompts used throughout the project organised by phase |
-
----
-
-## Dataset
-
-| Property | Detail |
-|---|---|
-| Source | Mobile\_Sales.xlsx |
-| Period | January 1 to December 31, 2024 |
-| Transactions | 366 |
-| Brands | 5 (Apple, Samsung, Google, OnePlus, Xiaomi) |
-| Models | 19 |
-| Countries | 4 (India, Turkey, Bangladesh, Pakistan) |
-| Cities | 25 |
-| Currency | Native dataset unit — denomination unspecified |
 
 ---
 
