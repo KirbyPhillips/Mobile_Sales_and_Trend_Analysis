@@ -3,6 +3,8 @@
 ### Note: 
 This is a technical description of the entire process followed to complete this analysis. Business related insights and recommendations are in a separate document folder and linked on my website www.primepeakinsights.com
 
+---
+
 ## Project Overview
 
 In 2024, a mobile phone retailer operating across 4 countries (India, Turkey, Bangladesh, and Pakistan) lacked a centralised view of its sales performance. Key data such as revenue, product mix, customer demographics, and channel performance, existed in raw transactional formats, making it difficult to extract meaningful insights or support decision-making.
@@ -17,7 +19,6 @@ This project was built to bridge that gap by transforming a partially modelled E
 
 
 <img width="601" height="335" alt="{37C71874-F5A4-4873-9803-8197D5A909D1}" src="https://github.com/user-attachments/assets/ba96ac69-e171-435f-a845-181cb2288e2f" />
-
 
 ---
 
