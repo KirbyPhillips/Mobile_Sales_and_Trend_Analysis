@@ -63,10 +63,6 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 - Replaced GUID-based `Transaction_ID` with sequential integers 1 to 366
 - Created composite `Product_Key` (P001 to P274) in both Dim\_Products and Fact\_Sales to enable a valid one-to-many relationship
 
-**Data prep image:**
-
-<img width="926" height="317" alt="{BFC24286-5D4C-4872-96A4-F830934EC253}" src="https://github.com/user-attachments/assets/62efa2ca-a88c-4ba0-8c3c-b01c100d9bc8" />
-
 ## Dataset
 
 | Property | Detail |
@@ -79,6 +75,10 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 | Countries | 4 (India, Turkey, Bangladesh, Pakistan) |
 | Cities | 25 |
 | Currency | Native dataset unit — denomination unspecified |
+
+**Data prep image:**
+
+<img width="926" height="317" alt="{BFC24286-5D4C-4872-96A4-F830934EC253}" src="https://github.com/user-attachments/assets/62efa2ca-a88c-4ba0-8c3c-b01c100d9bc8" />
 
 ### Phase 2: Data Model Setup (Power BI)
 
