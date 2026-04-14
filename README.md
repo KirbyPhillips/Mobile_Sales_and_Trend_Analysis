@@ -6,7 +6,7 @@ This repository outlines the full technical process used in the analysis. Key bu
 
 ---
 
-## Project Overview
+## 1. Project Overview
 
 In 2024, a mobile phone retailer operating across 4 countries (India, Turkey, Bangladesh, and Pakistan) lacked a centralised view of its sales performance. Key data such as revenue, product mix, customer demographics, and channel performance, existed in raw transactional formats, making it difficult to extract meaningful insights or support decision-making.
 
@@ -23,7 +23,7 @@ This project was built to bridge that gap by transforming a partially modelled E
 
 ---
 
-## Tools and Technologies
+## 2. Tools and Technologies
 
 The following tools and technologies were used to complete this analysis:
 
@@ -38,7 +38,7 @@ The following tools and technologies were used to complete this analysis:
 
 ---
 
-## The SCAN Framework
+## 3. The SCAN Framework
 
 This analysis was planned and executed using the SCAN Framework, a personal structured methodology developed to bring clarity to every stage of the process.
 
@@ -51,7 +51,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 
 ---
 
-## Project Phases
+## 4. Project Phases
 
 A structured, end-to-end workflow was followed to transform raw unstructured transactional data into a scalable and insight-driven Power BI solution. The project spans data preparation, modelling, optimisation, and dashboard design, with each phase building toward actionable business insights.
 
@@ -93,7 +93,7 @@ Steps:
 ### Data Model Layout
 The data model in this analysis comprised of 3 key areas: tables, star schema, and relationships.
 
-#### 1. Tables 
+#### 1) Tables 
 
 This is a summary of the table structure:
 
@@ -105,7 +105,7 @@ This is a summary of the table structure:
 | DIM\_Calendar | 366 | 11 | Date table built in Power Query |
 | \_Measures | 0 | - | Dedicated measures table with 65 DAX measures |
 
-#### 2. Star Schema
+#### 2) Star Schema
 
 This is a summary of the data model's star schema layout:
 
@@ -124,7 +124,7 @@ It illustrates the relationship between the central FACT_Sales table and support
 
 ![Data Model](assets/db.png) 
 
-#### 3. Relationships
+#### 3) Relationships
 This is a summary of the relationship cardinality:
 
 | From | To | Column | Cardinality |
@@ -201,7 +201,7 @@ Steps:
 | Conditional Formatting | 15 | CF Revenue by Brand, CF Bars, Marker Color, MoM Revenue, CF MoM Revenue, and supporting measures |
 -->
 
-## Insights for the business
+## 5. Insights for the business
 
 This section translates key analytical findings into clear, actionable strategies that directly support revenue growth. It enables the business to make data-driven decisions by highlighting where to focus resources for the greatest commercial impact moving forward.
 
@@ -216,7 +216,7 @@ This section translates key analytical findings into clear, actionable strategie
 
 ---
 
-## In Hindsight
+## 6. In Hindsight
 
 This analysis covers the full scope of the 2024 dataset as it was provided. Looking back, there are areas I would expand in a future iteration to make the solution more complete.
 
