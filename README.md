@@ -100,11 +100,11 @@ This is a summary of the table structure:
 
 | Table | Rows | Columns | Description |
 |---|---|---|---|
-| FACT\_Sales | 366 | 13 | Central fact table — transactions, measures, and foreign keys |
+| FACT\_Sales | 366 | 13 | Central fact table - transactions, measures, and foreign keys |
 | DIM\_Products | 274 | 6 | Product variants by model, brand, OS, storage, and colour |
 | DIM\_Locations | 25 | 4 | City, country, latitude, and longitude |
 | DIM\_Calendar | 366 | 11 | Date table built in Power Query |
-| \_Measures | 0 | — | Dedicated measures table with 65 DAX measures |
+| \_Measures | 0 | - | Dedicated measures table with 65 DAX measures |
 
 #### 2. Star Schema
 
@@ -118,6 +118,13 @@ FACT_Sales (366 rows, 13 columns)
     |-- DIM_Calendar (366 rows, 11 columns)     [via Transaction_Date]
 ```
 
+This image below illstrates all the above mentioned components of this data model in a logical star schema design. 
+It illustrates the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
+
+<img width="393" height="299" alt="{C95AED0F-D69A-4A69-A9BF-9D7724D8CC7D}" src="https://github.com/user-attachments/assets/d555194c-5135-4205-a1c2-83149616bf2a" />
+
+![Data Model](assets/db.png) 
+
 #### 3. Relationships
 This is a summary of the relationship cardinality:
 
@@ -126,13 +133,6 @@ This is a summary of the relationship cardinality:
 | DIM_Products | FACT_Sales | Product_Key | One to Many |
 | DIM_Locations | FACT_Sales | City | One to Many |
 | DIM_Calendar | FACT_Sales | Transaction_Date | One to Many |
-
-This image below illstrates all the above mentioned components of this data model in a logical star schema design. 
-It illustrates the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
-
-<img width="393" height="299" alt="{C95AED0F-D69A-4A69-A9BF-9D7724D8CC7D}" src="https://github.com/user-attachments/assets/d555194c-5135-4205-a1c2-83149616bf2a" />
-
-![Data Model](assets/db.png) 
 
 ## Data Model Performance
 
