@@ -202,29 +202,16 @@ Steps:
 | Conditional Formatting | 15 | CF Revenue by Brand, CF Bars, Marker Color, MoM Revenue, CF MoM Revenue, and supporting measures |
 -->
 
-## Key Findings
+## Key Insights | Recommendations | Business Impact
 
-| Finding | Detail |
-|---|---|
-| Total Revenue | 14,525,413 across 366 transactions in 2024 |
-| Top Market | India at 6.97M, accounting for 48% of total revenue |
-| Top Brand | Apple at 3.64M, followed by Samsung at 3.48M |
-| Average Selling Price | 784.73 per device across all brands and markets |
-| September Dip | The only month below 1M in revenue at 988K, driven by product mix not demand |
-| Pakistan Pricing | Average selling price of 619, which is 27% below the overall average |
-| Online Channel | Accounts for 62.3% of total revenue across 213 transactions |
-| Age and Brand Correlation | Spending increases with age — 18-29 group averages 787, 54-65 group averages 831 |
-
----
-
-## Recommendations
-
-1. Prioritise India as the primary growth market. **WHY?** A 10% revenue increase would add approximately 697K to the top line.
-2. Increase availability of Apple and Samsung products. **WHY?** Together they generate 49% of revenue from just 2 of 5 brands.
-3. Launch a targeted campaign in August and September to address the annual mid-year revenue dip.
-4. Conduct a strategic review of the Pakistan market, focusing on product range realignment and pricing optimisation.
-5. Continue investing in the Online channel. **WHY?** It generates the highest average units per transaction at 52.7.
-6. Develop targeted marketing for the 54 to 65 age segment. **WHY?** This is the highest value customer cohort at 831 per device.
+| Key Insights | Recommendations | Business Impact |
+|---|---|---|
+| 14.5M revenue across 366 transactions in 2024 | Prioritize India as the primary growth market. Increase stock depth and channel presence in key Indian cities, particularly Chennai and beyond. | ✓ India generates 48% of total revenue (6.97M) and 46% of total units sold.<br><br>✓ A 10% increase in Indian market revenue alone would add approximately 697K to the top line, more than the entire Pakistan market. |
+| Apple (3.64M) and Samsung (3.48M) dominate brand performance | Increase the availability and visibility of Apple and Samsung products across all markets. | ✓ Apple and Samsung together generate 49% of total revenue despite representing just 2 of 5 brands.<br><br>✓ They also have the highest average selling prices, meaning a shift in brand mix toward these two brands lifts the North Star without requiring additional transactions. |
+| September revenue dips below 1M (988K) | Launch a targeted promotional campaign ahead of and during September to address the annual mid-year revenue dip. | ✓ September is the only month in 2024 that fell below the 1M revenue threshold, recording 988K.<br><br>✓ A modest 5% revenue uplift in September alone would recover approximately 50K and restore all 12 months above the threshold. |
+| Pakistan ASP is 619 (27% below average) | Conduct a strategic review of the Pakistan market, focusing on product range realignment and pricing optimisation. | ✓ Pakistan records an average selling price of 619, which is 27% below the overall average of 784.<br><br>✓ Aligning Pakistan's product mix and pricing closer to Bangladesh's profile (average 736) could increase Pakistan's revenue contribution by an estimated 65% without requiring a larger customer base. |
+| Online channel drives 62.3% of revenue | Continue investing in and expanding the Online channel as the primary revenue driver. | ✓ Online generates 62.3% of total revenue and the highest average units per transaction at 52.7, compared to 43.5 for the Partner channel.<br><br>✓ Shifting 10 Partner transactions to Online would generate an estimated 930 additional units, based on the differential in average transaction size. |
+| 54–65 age group has highest spend (831) | Develop targeted marketing and product strategies for the 54 to 65 age segment, particularly around Apple products. | ✓ The 54 to 65 age group records the highest average spend at 831 per device and the strongest preference for Apple.<br><br>✓ This segment represents the highest value customer cohort in the business. Increasing their transaction volume by 10% would generate approximately 309K in additional revenue based on current average spend. |
 
 ---
 
