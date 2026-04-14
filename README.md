@@ -77,7 +77,7 @@ Steps:
 
 **Data prep image:**
 
-<img width="926" height="317" alt="{BFC24286-5D4C-4872-96A4-F830934EC253}" src="https://github.com/user-attachments/assets/62efa2ca-a88c-4ba0-8c3c-b01c100d9bc8" />
+![Alt text](Data%20prep.png)
 
 ## Characteristics of the dataset
 
