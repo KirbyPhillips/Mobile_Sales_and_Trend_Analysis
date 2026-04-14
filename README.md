@@ -202,8 +202,6 @@ Steps:
 | Conditional Formatting | 15 | CF Revenue by Brand, CF Bars, Marker Color, MoM Revenue, CF MoM Revenue, and supporting measures |
 -->
 
----
-
 ## Key Findings
 
 | Finding | Detail |
