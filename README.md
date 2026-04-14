@@ -89,7 +89,7 @@ Steps:
 | Models | 19 |
 | Countries | 4 (India, Turkey, Bangladesh, Pakistan) |
 | Cities | 25 |
-| Currency | Currency denomination ot specified in the source dataset |
+| Currency | Currency denomination not specified in the source dataset |
 
 ---
 
