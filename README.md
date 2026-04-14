@@ -132,7 +132,7 @@ FACT_Sales (366 rows, 13 columns)
 This image below illstrates all the above mentioned components of this data model in a logical star schema design. 
 It illustrates the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
 
-![Alt text](Data%20prep.png)
+![Alt text](Data%20model.png)
 
 #### 3) Relationships
 This is a summary of the relationship cardinality:
