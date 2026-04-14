@@ -102,7 +102,7 @@ Steps:
 - Marked DIM\_Calendar as the official date table
 
 ### Data Model Layout
-The data model in this analysis comprised of 3 key areas: tables, star schema, and relationships.
+The data model in this analysis consisted of 3 key areas: tables, star schema, and relationships.
 
 #### 1) Tables 
 
@@ -220,7 +220,7 @@ This section translates key analytical findings into clear, actionable strategie
 
 | Key Insights | Recommendations | Business Impact |
 |---|---|---|
-| 14.5M revenue across 366 transactions in 2024 | Prioritize India as the primary growth market. Increase stock depth and channel presence in key Indian cities, particularly Chennai and beyond. | ✓ India generates 48% of total revenue (6.97M) and 46% of total units sold.<br><br>✓ A 10% increase in Indian market revenue alone would add approximately 697K to the top line, more than the entire Pakistan market. |
+| 14.5M revenue across 366 transactions in 2024 | Prioritise India as the primary growth market. Increase stock depth and channel presence in key Indian cities, particularly Chennai and beyond. | ✓ India generates 48% of total revenue (6.97M) and 46% of total units sold.<br><br>✓ A 10% increase in Indian market revenue alone would add approximately 697K to the top line, more than the entire Pakistan market. |
 | Apple (3.64M) and Samsung (3.48M) dominate brand performance | Increase the availability and visibility of Apple and Samsung products across all markets. | ✓ Apple and Samsung together generate 49% of total revenue despite representing just 2 of 5 brands.<br><br>✓ They also have the highest average selling prices, meaning a shift in brand mix toward these two brands lifts the North Star without requiring additional transactions. |
 | September revenue dips below 1M (988K) | Launch a targeted promotional campaign ahead of and during September to address the annual mid-year revenue dip. | ✓ September is the only month in 2024 that fell below the 1M revenue threshold, recording 988K.<br><br>✓ A modest 5% revenue uplift in September alone would recover approximately 50K and restore all 12 months above the threshold. |
 | Pakistan ASP is 619 (27% below average) | Conduct a strategic review of the Pakistan market, focusing on product range realignment and pricing optimisation. | ✓ Pakistan records an average selling price of 619, which is 27% below the overall average of 784.<br><br>✓ Aligning Pakistan's product mix and pricing closer to Bangladesh's profile (average 736) could increase Pakistan's revenue contribution by an estimated 65% without requiring a larger customer base. |
@@ -252,7 +252,7 @@ This analysis covers the full scope of the 2024 dataset as it was provided. Look
 
 ## 7. Concluding notes
 
-The interactive dashboard of this project can be viewed here.
+The interactive dashboard of this project can be viewed [here](https://bit.ly/4trOdf8).   
 For any inquiries, reach out to the author through the information provided below.
 
 ---
