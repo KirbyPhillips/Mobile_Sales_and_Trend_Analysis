@@ -4,6 +4,18 @@
 
 This repository outlines the full technical process used in the analysis. Key business insights and recommendations are provided at the end, with a comprehensive report available in this folder and on my website: www.primepeakinsights.com
 
+## Table of Contents
+
+This repository is structured to walk you through the full end-to-end process of the Mobile Sales and Trends Analysis, from the initial business problem through to the final insights and reflections. Each section builds on the previous one, following the same logical flow used to plan and execute the analysis itself.
+
+1. [Project Overview](#project-overview)
+2. [Tools and Technologies](#tools-and-technologies)
+3. [The SCAN Framework](#the-scan-framework)
+4. [Project Phases](#project-phases)
+5. [Dataset and Model Performance](#dataset-and-model-performance)
+6. [Insights for the Business](#insights-for-the-business)
+7. [In Hindsight](#in-hindsight)
+
 ---
 
 ## 1. Project Overview
