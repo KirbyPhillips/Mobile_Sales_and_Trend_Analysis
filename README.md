@@ -250,7 +250,7 @@ This analysis covers the full scope of the 2024 dataset as it was provided. Look
 
 ---
 
-## Concluding notes
+## 7. Concluding notes
 
 The interactive dashboard of this project can be viewed here.
 For any inquiries, reach out to the author through the information provided below.
