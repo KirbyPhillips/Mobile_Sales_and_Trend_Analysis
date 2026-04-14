@@ -262,5 +262,5 @@ For any inquiries, reach out to the author through the information provided belo
 **Kirby Phillips**
 
 Power BI Data Analyst | 
-[LinkedIn](https://www.linkedin.com/in/kirbykphillips/) | [Website](https://)
+[LinkedIn](https://www.linkedin.com/in/kirbykphillips/) | [Website](https://www.primepeakinsights.com)
 
