@@ -226,7 +226,7 @@ This analysis covers the full scope of the 2024 dataset as it was provided. Look
 - Market penetration rate by country to contextualise each market's revenue against its total addressable opportunity.
 
 **How I Would Evolve the Data Model:**
-- A dedicated DIM_Customers table to enable deeper customer-level analysis rather than storing demographic attributes in the fact table.
+- A dedicated DIM_Customers table to enable deeper customer-level analysis, as demographic attributes such as Customer_Age, Customer_Age_Group, and Customer_Gender are currently stored in FACT_Sales rather than in a dedicated dimension table.
 - Extend DIM_Calendar to support rolling 12-month analysis across years, not just the 2024 calendar year.
 - A Promotions table to track the impact of pricing decisions on average selling price over time.
 
