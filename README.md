@@ -260,7 +260,8 @@ For any inquiries, reach out to the author through the information provided belo
 
 ## Author
 
-**Kirby**
-Data Analyst | Power BI Developer
-[LinkedIn](https://www.linkedin.com/in/) | [Website](https://)
+**Kirby Phillips**
+
+Power BI Data Analyst
+[LinkedIn](https://www.linkedin.com/in/kirbykphillips/) | [Website](https://)
 
