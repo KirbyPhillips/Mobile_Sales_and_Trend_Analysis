@@ -204,7 +204,7 @@ Steps:
 
 ## Insights for the business
 
-This section translates key analytical findings into clear, actionable strategies that directly support revenue growth. It enables the business to make data-driven decisions by highlighting where to focus resources for the greatest commercial impact.
+This section translates key analytical findings into clear, actionable strategies that directly support revenue growth. It enables the business to make data-driven decisions by highlighting where to focus resources for the greatest commercial impact moving forward.
 
 | Key Insights | Recommendations | Business Impact |
 |---|---|---|
