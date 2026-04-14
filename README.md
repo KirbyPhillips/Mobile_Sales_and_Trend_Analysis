@@ -92,20 +92,10 @@ Steps:
 - Marked DIM\_Calendar as the official date table
 
 ### Data Model Layout
-The data model in this analysis comprised of 3 key areas: star schema, tables, and relationships.
+The data model in this analysis comprised of 3 key areas: tables, star schema, and relationships.
 
-#### 1. Star Schema
-This is a summary of the data model's star schema layout:
+#### 1. Tables 
 
-```
-FACT_Sales (366 rows, 13 columns)
-    |
-    |-- DIM_Products (274 rows, 6 columns)      [via Product_Key]
-    |-- DIM_Locations (25 rows, 4 columns)      [via City]
-    |-- DIM_Calendar (366 rows, 11 columns)     [via Transaction_Date]
-```
-
-#### 2. Tables
 This is a summary of the table structure:
 
 | Table | Rows | Columns | Description |
@@ -115,6 +105,18 @@ This is a summary of the table structure:
 | DIM\_Locations | 25 | 4 | City, country, latitude, and longitude |
 | DIM\_Calendar | 366 | 11 | Date table built in Power Query |
 | \_Measures | 0 | — | Dedicated measures table with 65 DAX measures |
+
+#### 2. Star Schema
+
+This is a summary of the data model's star schema layout:
+
+```
+FACT_Sales (366 rows, 13 columns)
+    |
+    |-- DIM_Products (274 rows, 6 columns)      [via Product_Key]
+    |-- DIM_Locations (25 rows, 4 columns)      [via City]
+    |-- DIM_Calendar (366 rows, 11 columns)     [via Transaction_Date]
+```
 
 #### 3. Relationships
 This is a summary of the relationship cardinality:
