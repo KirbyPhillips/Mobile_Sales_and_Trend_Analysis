@@ -204,6 +204,32 @@ Steps:
 
 ---
 
+## Key Findings
+
+| Finding | Detail |
+|---|---|
+| Total Revenue | 14,525,413 across 366 transactions in 2024 |
+| Top Market | India at 6.97M, accounting for 48% of total revenue |
+| Top Brand | Apple at 3.64M, followed by Samsung at 3.48M |
+| Average Selling Price | 784.73 per device across all brands and markets |
+| September Dip | The only month below 1M in revenue at 988K, driven by product mix not demand |
+| Pakistan Pricing | Average selling price of 619, which is 27% below the overall average |
+| Online Channel | Accounts for 62.3% of total revenue across 213 transactions |
+| Age and Brand Correlation | Spending increases with age — 18-29 group averages 787, 54-65 group averages 831 |
+
+---
+
+## Recommendations
+
+1. Prioritise India as the primary growth market — a 10% revenue increase would add approximately 697K to the top line
+2. Increase availability of Apple and Samsung products — together they generate 49% of revenue from just 2 of 5 brands
+3. Launch a targeted campaign in August and September to address the annual mid-year revenue dip
+4. Conduct a strategic review of the Pakistan market, focusing on product range realignment and pricing optimisation
+5. Continue investing in the Online channel — it generates the highest average units per transaction at 52.7
+6. Develop targeted marketing for the 54 to 65 age segment — the highest value customer cohort at 831 per device
+
+---
+
 ## Author
 
 **Kirby**
