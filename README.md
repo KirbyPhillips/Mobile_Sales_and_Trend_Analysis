@@ -14,7 +14,7 @@ This repository is structured to walk you through the full end-to-end process of
 4. [Project Phases](#project-phases)
 5. [Insights for the Business](#insights-for-the-business)
 6. [In Hindsight](#in-hindsight)
-7. [Concluding notes](#concluding-notes)
+7. [Concluding Notes](#concluding-notes)
 
 ---
 
