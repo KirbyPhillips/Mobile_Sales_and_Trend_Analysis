@@ -220,7 +220,7 @@ Steps:
 ## Recommendations
 
 1. Prioritise India as the primary growth market. **WHY?** A 10% revenue increase would add approximately 697K to the top line
-2. Increase availability of Apple and Samsung products. **WHY?** together they generate 49% of revenue from just 2 of 5 brands
+2. Increase availability of Apple and Samsung products. **WHY?** Together they generate 49% of revenue from just 2 of 5 brands
 3. Launch a targeted campaign in August and September to address the annual mid-year revenue dip
 4. Conduct a strategic review of the Pakistan market, focusing on product range realignment and pricing optimisation
 5. Continue investing in the Online channel. **WHY?** It generates the highest average units per transaction at 52.7
