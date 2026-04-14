@@ -170,7 +170,7 @@ Steps:
 
 #### Measures Organisation and Model Optimisation
 
-<img width="209" height="150" alt="{82828FA6-3B62-4179-A2D7-79D704EAA229}" src="https://github.com/user-attachments/assets/7dcb22c8-2e9b-48cb-9039-5002c9eceec1" />
+![Alt text](Measures.png)
 
 ---
 
