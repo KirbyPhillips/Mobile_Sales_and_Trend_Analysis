@@ -195,7 +195,9 @@ Steps:
 - Applied the custom Emerald Tide JSON theme across all 26 visual types
 - Applied cohesion, aesthetic, rhythm, emphasis considerations throughout the report
 
+![Alt text](images/emerald-tide-product-performance.png)
 
+![Alt text](images/product-performance-pdi.png)
 
 ---
 
