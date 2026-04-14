@@ -217,15 +217,19 @@ This section translates key analytical findings into clear, actionable strategie
 ---
 
 ## In Hindsight
+
 This analysis covers the full scope of the 2024 dataset as it was provided. Looking back, there are areas I would expand in a future iteration to make the solution more complete.
+
 **Additional Metrics:**
 - Net Revenue after returns to give the business a more accurate picture of true performance
 - Customer Lifetime Value by age group to quantify the long-term revenue contribution of the 54 to 65 segment
 - Market penetration rate by country to contextualise each market's revenue against its total addressable opportunity
+
 **How I Would Evolve the Data Model:**
 - A dedicated DIM_Customers table to enable proper customer-level analysis rather than storing demographic attributes in the fact table
 - Extend DIM_Calendar to support rolling 12-month analysis across years, not just the 2024 calendar year
 - A Promotions table to track the impact of pricing decisions on average selling price over time
+
 **Building a More Robust Pipeline:**
 - Replace the static Excel source file with a live database connection to enable scheduled or real-time data refresh
 - Introduce data validation checks at the Power Query stage to catch inconsistencies before they reach the model
