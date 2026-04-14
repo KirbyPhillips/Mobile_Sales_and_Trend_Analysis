@@ -6,7 +6,7 @@ This repository outlines the full technical process used in the analysis. Key bu
 
 ## Table of Contents
 
-This repository is structured to walk you through the full end-to-end process of the Mobile Sales and Trends Analysis, from the initial business problem through to the final insights and reflections. Each section builds on the previous one, following the same logical flow used to plan and execute the analysis itself.
+This repository is structured to walk you through the end-to-end process of the Mobile Sales and Trends Analysis, from the initial business problem through to the final insights and reflections. Each section builds on the previous one, following the same logical flow used to plan and execute the analysis itself.
 
 1. [Project Overview](#project-overview)
 2. [Tools and Technologies](#tools-and-technologies)
@@ -69,7 +69,7 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 ### PHASE 1: Data Preparation (Excel)
 Steps:
 - Reviewed the raw `Mobile_Sales.xlsx` file across 4 sheets: Fact\_Sales, Dim\_Products, Dim\_Locations, and Data Dictionary
-- Rebinned `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
+- Reb-segmented `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
 - Normalised `Fact_Sales` by removing 7 denormalised columns: Brand, Operating\_System, Color, Storage\_Size, Country, Latitude, Longitude
 - Replaced GUID-based `Transaction_ID` with sequential integers 1 to 366
 - Created composite `Product_Key` (P001 to P274) in both Dim\_Products and Fact\_Sales to enable a valid one-to-many relationship
@@ -89,7 +89,7 @@ Steps:
 | Models | 19 |
 | Countries | 4 (India, Turkey, Bangladesh, Pakistan) |
 | Cities | 25 |
-| Currency | Native dataset unit - denomination unspecified |
+| Currency | Currency denomination ot specified in the source dataset |
 
 ---
 
@@ -233,7 +233,7 @@ This section translates key analytical findings into clear, actionable strategie
 
 ## 6. In Hindsight
 
-This analysis covers the full scope of the 2024 dataset as it was provided. Looking back, there are areas I would expand in a future iteration to make the solution more complete.
+This analysis covers the full scope of the 2024 dataset as it was provided. Looking back, there are areas I would expand in a future iteration to make the solution more comprehensive.
 
 **Additional Metrics:**
 - Net Revenue after returns to give the business a more accurate picture of true performance.
