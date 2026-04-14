@@ -35,7 +35,6 @@ The following tools and technologies were used to complete this analysis:
 | DAX | 65 measures across 7 display folders |
 | Figma | Wireframing and report background design |
 | JSON | Custom Emerald Tide theme applied across all 26 visual types |
-| Claude.ai | Structure report writing |
 
 ---
 
@@ -58,7 +57,7 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 
 ### PHASE 1: Data Preparation (Excel)
 Steps:
-- Reviewed the raw unstructured `Mobile_Sales.xlsx` file across 4 sheets: Fact\_Sales, Dim\_Products, Dim\_Locations, and Data Dictionary
+- Reviewed the raw `Mobile_Sales.xlsx` file across 4 sheets: Fact\_Sales, Dim\_Products, Dim\_Locations, and Data Dictionary
 - Rebinned `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
 - Normalised `Fact_Sales` by removing 7 denormalised columns: Brand, Operating\_System, Color, Storage\_Size, Country, Latitude, Longitude
 - Replaced GUID-based `Transaction_ID` with sequential integers 1 to 366
@@ -214,6 +213,23 @@ This section translates key analytical findings into clear, actionable strategie
 | Pakistan ASP is 619 (27% below average) | Conduct a strategic review of the Pakistan market, focusing on product range realignment and pricing optimisation. | ✓ Pakistan records an average selling price of 619, which is 27% below the overall average of 784.<br><br>✓ Aligning Pakistan's product mix and pricing closer to Bangladesh's profile (average 736) could increase Pakistan's revenue contribution by an estimated 65% without requiring a larger customer base. |
 | Online channel drives 62.3% of revenue | Continue investing in and expanding the Online channel as the primary revenue driver. | ✓ Online generates 62.3% of total revenue and the highest average units per transaction at 52.7, compared to 43.5 for the Partner channel.<br><br>✓ Shifting 10 Partner transactions to Online would generate an estimated 930 additional units, based on the differential in average transaction size. |
 | 54–65 age group has highest spend (831) | Develop targeted marketing and product strategies for the 54 to 65 age segment, particularly around Apple products. | ✓ The 54 to 65 age group records the highest average spend at 831 per device and the strongest preference for Apple.<br><br>✓ This segment represents the highest value customer cohort in the business. Increasing their transaction volume by 10% would generate approximately 309K in additional revenue based on current average spend. |
+
+---
+
+## In Hindsight
+This analysis covers the full scope of the 2024 dataset as it was provided. Looking back, there are areas I would expand in a future iteration to make the solution more complete.
+**Additional Metrics:**
+- Net Revenue after returns to give the business a more accurate picture of true performance
+- Customer Lifetime Value by age group to quantify the long-term revenue contribution of the 54 to 65 segment
+- Market penetration rate by country to contextualise each market's revenue against its total addressable opportunity
+**How I Would Evolve the Data Model:**
+- A dedicated DIM_Customers table to enable proper customer-level analysis rather than storing demographic attributes in the fact table
+- Extend DIM_Calendar to support rolling 12-month analysis across years, not just the 2024 calendar year
+- A Promotions table to track the impact of pricing decisions on average selling price over time
+**Building a More Robust Pipeline:**
+- Replace the static Excel source file with a live database connection to enable scheduled or real-time data refresh
+- Introduce data validation checks at the Power Query stage to catch inconsistencies before they reach the model
+- Automate the normalisation process using a data pipeline so future datasets load clean without manual preparation
 
 ---
 
