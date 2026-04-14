@@ -140,9 +140,9 @@ The data model is structured as a star schema with one central fact table (FACT_
 
 **This data model allows this analysis to:**
 
-- Track Revenue (14,525,413), Units Sold (18,548), and Transactions (366) at transaction level and aggregate across any combination of brand, model, country, city, age group, gender, sales channel, and payment type..
-- Analyse month-over-month and year-to-date performance for all 5 core metrics using time intelligence measures built on a Power Query Calendar table.
-- Compare average selling price across countries, brands, age groups, and genders — surfacing pricing gaps such as Pakistan at 619 versus the overall average of 784.
+- Track Revenue (14,525,413), Units Sold (18,548), and Transactions (366) at transaction level and aggregate across any combination of brand, model, country, city, age group, gender, sales channel, and payment type.
+- Analyse month-over-month performance for all 5 core metrics using time intelligence measures built on a Power Query Calendar table.
+- Compare average selling price across countries, brands, age groups, and genders - surfacing pricing gaps such as Pakistan at 619 versus the overall average of 784.
 - Drill down from country to city level using the Geography hierarchy, from brand to model to storage to colour using the Product hierarchy, and from year to day using the Date hierarchy.
 - Apply conditional formatting dynamically across visuals to surface the highest and lowest performing months, brands, and metrics without manual configuration.
   
@@ -182,10 +182,11 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 Steps:
 - Designed all 6 report page backgrounds in Figma, exported as PNG images, and imported as canvas backgrounds in Power BI
 - Applied the custom Emerald Tide JSON theme across all 26 visual types
-- Applied CARE design principles throughout: Cohesion, Aesthetic, Rhythm, Emphasis
+- Applied cohesion, aesthetic, rhythm, emphasis considerations throughout the report
 
 ---
 
+<!--
 ## Measures Library
 
 65 DAX measures organised across 6 display folders:
@@ -199,6 +200,7 @@ Steps:
 | Geographic Analysis | 5 | Revenue and Units by Country and City, Avg Selling Price by Country |
 | Channel Analysis | 5 | Revenue, Units, and Transactions by Sales Channel and Payment Type |
 | Conditional Formatting | 15 | CF Revenue by Brand, CF Bars, Marker Color, MoM Revenue, CF MoM Revenue, and supporting measures |
+-->
 
 ---
 
