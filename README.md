@@ -69,7 +69,7 @@ A structured, end-to-end workflow was followed to transform raw unstructured tra
 ### PHASE 1: Data Preparation (Excel)
 Steps:
 - Reviewed the raw `Mobile_Sales.xlsx` file across 4 sheets: Fact\_Sales, Dim\_Products, Dim\_Locations, and Data Dictionary
-- Reb-segmented `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
+- Re-segmented `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
 - Normalised `Fact_Sales` by removing 7 denormalised columns: Brand, Operating\_System, Color, Storage\_Size, Country, Latitude, Longitude
 - Replaced GUID-based `Transaction_ID` with sequential integers 1 to 366
 - Created composite `Product_Key` (P001 to P274) in both Dim\_Products and Fact\_Sales to enable a valid one-to-many relationship
