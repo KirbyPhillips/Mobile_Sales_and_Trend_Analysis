@@ -30,7 +30,7 @@ As a result, stakeholders were unable to answer critical business questions, suc
 This project was built to bridge that gap by transforming a partially modelled Excel dataset into a structured, end-to-end Power BI analytics solution. The goal was to enable clear visibility into performance, support data-driven decision-making, and uncover actionable insights across markets, products, and customer segments.
 
 
-![Alt text](Executive%20Overview.png)
+![Alt text](images/Executive%20Overview.png)
 
 ---
 
@@ -76,7 +76,7 @@ Steps:
 
 **Data prep image:**
 
-![Alt text](Data%20prep.png)
+![Alt text](images/Data%20prep.png)
 
 ## Characteristics of the dataset
 
@@ -131,7 +131,7 @@ FACT_Sales (366 rows, 13 columns)
 This image below shows all the above mentioned components of this data model in a logical star schema design. 
 It illustrates the relationship between the central FACT_Sales table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.
 
-![Alt text](Data%20model.png)
+![Alt text](images/Data%20model.png)
 
 #### 3) Relationships
 This is a summary of the relationship cardinality:
@@ -167,7 +167,7 @@ Steps:
 
 #### Measures Organisation and Model Optimisation
 
-![Alt text](Measures.png)
+![Alt text](images/Measures.png)
 
 ---
 
@@ -192,9 +192,9 @@ Steps:
 - Applied the custom Emerald Tide JSON theme across all 26 visual types
 - Applied cohesion, aesthetic, rhythm, emphasis considerations throughout the report
 
-![Alt text](Emerald%20Tide%20Product%20Performance.png)
+![Alt text](images/Emerald%20Tide%20Product%20Performance.png)
 
-![Alt text](Product%20Performance_PBI.png)
+![Alt text](images/Product%20Performance_PBI.png)
 
 ---
 
