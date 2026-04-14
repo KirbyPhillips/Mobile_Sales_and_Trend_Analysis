@@ -67,7 +67,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 A structured, end-to-end workflow was followed to transform raw unstructured transactional data into a scalable and insight-driven Power BI solution. The project spans data preparation, modelling, optimisation, and dashboard design, with each phase building toward actionable business insights.
 
 ### PHASE 1: Data Preparation (Excel)
-Steps:
+**Steps:**
 - Reviewed the raw `Mobile_Sales.xlsx` file across 4 sheets: Fact\_Sales, Dim\_Products, Dim\_Locations, and Data Dictionary
 - Re-segmented `Customer_Age_Group` from 6 bands to 4 equal 12-year bands: 18-29, 30-41, 42-53, 54-65
 - Normalised `Fact_Sales` by removing 7 denormalised columns: Brand, Operating\_System, Color, Storage\_Size, Country, Latitude, Longitude
@@ -94,7 +94,7 @@ Steps:
 ---
 
 ### PHASE 2: Data Model Setup (Power BI)
-Steps:
+**Steps:**
 - Loaded 3 tables into Power BI via Power Query, fixing a promoted headers issue on Dim\_Products
 - Disabled auto-detect relationships for complete manual control
 - Built a star schema with 3 active relationships: DIM_Products, DIM_Locations, and DIM_Calendar each connected one-to-many to FACT_Sales.
@@ -159,7 +159,7 @@ The data model is structured as a star schema with one central fact table (FACT_
 ---
 
 ### PHASE 3: Model Optimisation
-Steps:
+**Steps:**
 - Created 65 DAX measures organised into 7 display folders in a dedicated `_Measures` table
 - Standardised all column naming conventions to underscore format
 - Hidden all foreign key and join columns from report view
@@ -189,7 +189,7 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 ---
 
 ### PHASE 5: Design and Theme
-Steps:
+**Steps:**
 - Designed all 6 report page backgrounds in Figma, exported as PNG images, and imported as canvas backgrounds in Power BI
 - Applied the custom Emerald Tide JSON theme across all 26 visual types
 - Applied cohesion, aesthetic, rhythm, emphasis considerations throughout the report
