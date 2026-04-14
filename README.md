@@ -136,9 +136,9 @@ This is a summary of the relationship cardinality:
 
 ## Data Model Performance
 
-The data model is structured as a star schema with one central fact table (FACT_Sales) and 3 dimension tables (DIM_Products, DIM_Locations, and DIM_Calendar), built from a partially modelled Excel source file. The model covers 366 transactions across 4 countries, 25 cities, 5 brands, and 19 mobile phone models, with 65 DAX measures organised into 6 display folders.
+The data model is structured as a star schema with one central fact table (FACT_Sales) and 3 dimension tables (DIM_Products, DIM_Locations, and DIM_Calendar), built from a partially modelled Excel source file. The model covers 366 transactions across 4 countries, 25 cities, 5 brands, and 19 mobile phone models, with 65 DAX measures organised into 7 display folders.
 
-**This data model allows us to:**
+**This data model allows this analysis to:**
 
 - Track Revenue (14,525,413), Units Sold (18,548), and Transactions (366) at transaction level and aggregate across any combination of brand, model, country, city, age group, gender, sales channel, and payment type..
 - Analyse month-over-month and year-to-date performance for all 5 core metrics using time intelligence measures built on a Power Query Calendar table.
