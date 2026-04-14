@@ -202,7 +202,9 @@ Steps:
 | Conditional Formatting | 15 | CF Revenue by Brand, CF Bars, Marker Color, MoM Revenue, CF MoM Revenue, and supporting measures |
 -->
 
-## Key Insights | Recommendations | Business Impact
+## Insights for the business
+
+This section translates key analytical findings into clear, actionable strategies that directly support revenue growth. It enables the business to make data-driven decisions by highlighting where to focus resources for the greatest commercial impact.
 
 | Key Insights | Recommendations | Business Impact |
 |---|---|---|
