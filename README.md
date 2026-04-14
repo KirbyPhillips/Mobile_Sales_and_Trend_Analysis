@@ -12,9 +12,9 @@ This repository is structured to walk you through the full end-to-end process of
 2. [Tools and Technologies](#tools-and-technologies)
 3. [The SCAN Framework](#the-scan-framework)
 4. [Project Phases](#project-phases)
-5. [Dataset and Model Performance](#dataset-and-model-performance)
-6. [Insights for the Business](#insights-for-the-business)
-7. [In Hindsight](#in-hindsight)
+5. [Insights for the Business](#insights-for-the-business)
+6. [In Hindsight](#in-hindsight)
+7. [Concluding notes](#concluding-notes)
 
 ---
 
@@ -143,7 +143,7 @@ This is a summary of the relationship cardinality:
 | DIM_Locations | FACT_Sales | City | One to Many |
 | DIM_Calendar | FACT_Sales | Transaction_Date | One to Many |
 
-## Data Model Performance
+#### Data Model Performance
 
 The data model is structured as a star schema with one central fact table (FACT_Sales) and 3 dimension tables (DIM_Products, DIM_Locations, and DIM_Calendar), built from a partially modelled Excel source file. The model covers 366 transactions across 4 countries, 25 cities, 5 brands, and 19 mobile phone models, with 65 DAX measures organised into 7 display folders.
 
