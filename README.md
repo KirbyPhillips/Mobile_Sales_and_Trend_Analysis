@@ -171,7 +171,7 @@ The data model is structured as a star schema with one central fact table (FACT_
 
 #### Measures Organisation and Model Optimisation
 
-![Alt text](images/Measures.png)
+![Alt text](images/Mobile%20Sales%20_Measures%20table.png)
 
 ---
 
