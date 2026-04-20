@@ -182,10 +182,10 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 | Page | Name | Role |
 |---|---|---|
 | 1 | Executive Overview | North Star |
-| 2 | The 3 Catalysts | Catalysts |
+| 2 | Sales Trends | Catalysts |
 | 3 | Product Performance | Product Indicators |
-| 4 | Geographic Analysis | Geographic Indicators |
-| 5 | Customer Insights | Customer Indicators |
+| 4 | Customer Insights | Customer Indicators |
+| 5 | Geographic Analysis | Geographic Indicators |
 | 6 | Channel and Payment | Channel Indicators |
 
 ---
