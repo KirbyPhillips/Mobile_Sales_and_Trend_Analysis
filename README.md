@@ -2,7 +2,7 @@
 
 ### Note: 
 
-This repository outlines the full technical process used in the analysis. Key business insights and recommendations are provided at the end, with a comprehensive report available in this folder and on my website: www.primepeakinsights.com
+This repository outlines the full technical process used in the analysis. Key business insights and recommendations are provided at the end, including a link to the comprehensive 2 page business report.
 
 ## Table of Contents
 
@@ -257,6 +257,8 @@ This analysis covers the full scope of the 2024 dataset as it was provided. Look
 ## 7. Concluding notes
 
 The interactive dashboard of this project can be viewed [here](https://bit.ly/4trOdf8).   
+The 2 page business report can be found [here](./Mobile_Sales_Business_Report.pdf).
+
 For any inquiries, reach out to the author through the information provided below.
 
 ---
@@ -266,5 +268,5 @@ For any inquiries, reach out to the author through the information provided belo
 **Kirby Phillips**
 
 Power BI Data Analyst | 
-[LinkedIn](https://www.linkedin.com/in/kirbykphillips/) | [Website](https://www.primepeakinsights.com)
+[LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
 
