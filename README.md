@@ -193,7 +193,7 @@ Built 6 report pages following the North Star to Catalyst to Indicator hierarchy
 ### PHASE 5: Design and Theme
 **Steps:**
 - Designed all 6 report page backgrounds in Figma, exported as PNG images, and imported as canvas backgrounds in Power BI
-- Applied the custom Emerald Tide JSON theme across all 26 visual types
+- Applied the custom Emerald Tide JSON theme across all visual types
 - Applied cohesion, aesthetic, rhythm, emphasis considerations throughout the report
 
 ![Alt text](images/Emerald%20Tide%20Product%20Performance.png)
