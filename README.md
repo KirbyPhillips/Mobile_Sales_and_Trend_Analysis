@@ -45,7 +45,7 @@ The following tools and technologies were used to complete this analysis:
 | Power Query | Data transformation and normalisation; Calendar table generation |
 | DAX | 65 measures across 7 display folders |
 | Figma | Wireframing and report background design |
-| JSON | Custom Emerald Tide theme applied across all 26 visual types |
+| JSON | Custom Emerald Tide theme applied across all visual types |
 
 ---
 
