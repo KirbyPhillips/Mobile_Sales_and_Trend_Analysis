@@ -267,7 +267,5 @@ For any inquiries, email me: kirby@primepeakinsights.com
 
 **Kirby Phillips**
 
-Founder, Prime Peak Insights
-Data Analyst  
-[LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
+Founder, Prime Peak Insights | Data Analyst [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
 
