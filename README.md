@@ -267,6 +267,6 @@ For any inquiries, email me: kirby@primepeakinsights.com
 
 **Kirby Phillips**
 
-Power BI Data Analyst | 
+founder @Prime Peak Insights | Data Analyst  
 [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
 
