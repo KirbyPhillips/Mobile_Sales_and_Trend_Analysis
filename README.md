@@ -256,7 +256,7 @@ This analysis covers the full scope of the 2024 dataset as it was provided. Look
 
 ## 7. Concluding notes
 
-The interactive dashboard of this project can be viewed [here](https://bit.ly/4oBKZV4).   
+The interactive dashboard of this project can be viewed [here](https://bit.ly/3Ptw2XS).   
 The 2 page business report can be found [here](./Mobile%20Sales%20Business%20Report.pdf).
 
 For any inquiries, email me: kirby@primepeakinsights.com
