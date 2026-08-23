@@ -1,4 +1,4 @@
-# Mobile Sales and Trends Analysis 2024
+# Mobile Sales Trends Analysis 2024
 
 ### Note: 
 
