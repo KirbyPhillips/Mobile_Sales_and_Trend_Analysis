@@ -267,5 +267,5 @@ For any inquiries, email me: kirby@primepeakinsights.com
 
 **Kirby Phillips**
 
-Data Analyst [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
+BI Developer | Data Analyst [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
 
